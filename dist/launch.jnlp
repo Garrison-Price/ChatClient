@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="${jnlp.codebase}" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>ChatClient</title>
+        <vendor>Dastyruck</vendor>
+        <homepage href=""/>
+        <description>ChatClient</description>
+        <description kind="short">ChatClient</description>
+
+
+    </information>
+
+    <resources>
+<j2se version="1.5+"/>
+<jar eager="true" href="ChatClient.jar" main="true"/>
+
+
+    </resources>
+    <application-desc main-class="Client">
+
+    </application-desc>
+</jnlp>
